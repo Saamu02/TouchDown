@@ -52,7 +52,6 @@ struct ContentView: View {
                     }
                 }
             }
-            
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         }
     }
