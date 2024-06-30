@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct CategoryGridView: View {
-    
-    
-     
+         
     var body: some View {
         
         ScrollView(.horizontal) {
