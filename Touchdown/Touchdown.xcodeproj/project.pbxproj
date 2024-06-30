@@ -42,6 +42,7 @@
 		04CBC6C22C318F1C00B8CCB9 /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC6C12C318F1C00B8CCB9 /* RatingSizesDetailView.swift */; };
 		04CBC6C42C31917E00B8CCB9 /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC6C32C31917E00B8CCB9 /* QuantityFavouriteDetailView.swift */; };
 		04CBC6C62C3192AE00B8CCB9 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC6C52C3192AE00B8CCB9 /* AddToCartDetailView.swift */; };
+		04CBC6C82C319B0D00B8CCB9 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC6C72C319B0D00B8CCB9 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		04CBC6C12C318F1C00B8CCB9 /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
 		04CBC6C32C31917E00B8CCB9 /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
 		04CBC6C52C3192AE00B8CCB9 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		04CBC6C72C319B0D00B8CCB9 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				044D56122C2FF718002F7F0A /* Constant.swift */,
+				04CBC6C72C319B0D00B8CCB9 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				044D56272C303D20002F7F0A /* CategoryModel.swift in Sources */,
 				044D55F52C2FF4B5002F7F0A /* ContentView.swift in Sources */,
 				044D56192C302FA6002F7F0A /* LogoView.swift in Sources */,
+				04CBC6C82C319B0D00B8CCB9 /* Shop.swift in Sources */,
 				04CBC6BC2C3181C600B8CCB9 /* NavigationBarDetailView.swift in Sources */,
 				04653DBC2C314FC80026F7AE /* CategoryGridView.swift in Sources */,
 				04CBC6C62C3192AE00B8CCB9 /* AddToCartDetailView.swift in Sources */,

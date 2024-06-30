@@ -18,6 +18,7 @@ struct QuantityFavouriteDetailView: View {
             Button(action: {
                 
                 if counter > 0 {
+                    hapticFeedBack.notificationOccurred(.success)
                     counter -= 1
                 }
                 
@@ -32,6 +33,7 @@ struct QuantityFavouriteDetailView: View {
             Button(action: {
                 
                 if counter < 100 {
+                    hapticFeedBack.notificationOccurred(.success)
                     counter += 1
                 }
                 
