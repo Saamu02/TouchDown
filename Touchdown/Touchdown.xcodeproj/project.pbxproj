@@ -25,6 +25,10 @@
 		044D56212C303929002F7F0A /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D56202C303929002F7F0A /* FeaturedTabView.swift */; };
 		044D56232C303AB3002F7F0A /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D56222C303AB3002F7F0A /* UIScreen+Extension.swift */; };
 		044D56252C303ABF002F7F0A /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D56242C303ABF002F7F0A /* UIWindow+Extension.swift */; };
+		044D56272C303D20002F7F0A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D56262C303D20002F7F0A /* CategoryModel.swift */; };
+		044D56292C308664002F7F0A /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D56282C308664002F7F0A /* CategoryItemView.swift */; };
+		04653DBC2C314FC80026F7AE /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04653DBB2C314FC80026F7AE /* CategoryGridView.swift */; };
+		04653DBE2C3152020026F7AE /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04653DBD2C3152020026F7AE /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		044D56202C303929002F7F0A /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		044D56222C303AB3002F7F0A /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		044D56242C303ABF002F7F0A /* UIWindow+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		044D56262C303D20002F7F0A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		044D56282C308664002F7F0A /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		04653DBB2C314FC80026F7AE /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		04653DBD2C3152020026F7AE /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				044D561A2C303530002F7F0A /* PlayerModel.swift */,
+				044D56262C303D20002F7F0A /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +163,9 @@
 				044D56182C302FA6002F7F0A /* LogoView.swift */,
 				044D561E2C3037FC002F7F0A /* FeaturedItemView.swift */,
 				044D56202C303929002F7F0A /* FeaturedTabView.swift */,
+				044D56282C308664002F7F0A /* CategoryItemView.swift */,
+				04653DBB2C314FC80026F7AE /* CategoryGridView.swift */,
+				04653DBD2C3152020026F7AE /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -257,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044D56272C303D20002F7F0A /* CategoryModel.swift in Sources */,
 				044D55F52C2FF4B5002F7F0A /* ContentView.swift in Sources */,
 				044D56192C302FA6002F7F0A /* LogoView.swift in Sources */,
+				04653DBC2C314FC80026F7AE /* CategoryGridView.swift in Sources */,
+				044D56292C308664002F7F0A /* CategoryItemView.swift in Sources */,
 				044D56152C2FF8BA002F7F0A /* FooterView.swift in Sources */,
 				044D56232C303AB3002F7F0A /* UIScreen+Extension.swift in Sources */,
 				044D561D2C303713002F7F0A /* Bundle+Extension.swift in Sources */,
@@ -266,6 +281,7 @@
 				044D561F2C3037FC002F7F0A /* FeaturedItemView.swift in Sources */,
 				044D55F32C2FF4B5002F7F0A /* TouchdownApp.swift in Sources */,
 				044D56132C2FF718002F7F0A /* Constant.swift in Sources */,
+				04653DBE2C3152020026F7AE /* SectionView.swift in Sources */,
 				044D56172C302DF5002F7F0A /* NavigationBarView.swift in Sources */,
 				044D56212C303929002F7F0A /* FeaturedTabView.swift in Sources */,
 				044D561B2C303530002F7F0A /* PlayerModel.swift in Sources */,
