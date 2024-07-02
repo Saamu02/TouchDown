@@ -1,5 +1,5 @@
 # TouchDown
-App 6: App develop in SwfitUI for iOS with the static widget UI
+App 6: App develop in SwfitUI for iOS
 
 
 # Learning Points:
