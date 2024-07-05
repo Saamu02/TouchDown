@@ -2,7 +2,7 @@
 App 6: App develop in SwfitUI for iOS
 
 
-# Learning Points:
+# Important Points:
 - Custom navigation bar
 - Use of generics (generics allows us to write a code that is capable of working with different types)
 - Lazy Horizontal Grid layout 
